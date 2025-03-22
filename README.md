@@ -41,4 +41,4 @@ If the filter you're adding would have also been possible to implement in SeAT's
 
 ## Long-term goals
 
-This project arose from a desire for a "Days In Current Corporation" filter, followed by a conversation on the SeAT Discord server about refactoring the filter system. I eventually hope to get something merged into SeAT core as a refactor of the existing filter system, or at least modify SeAT core a bit so this plugin can register a custom squad type instead of piggybacking on the Manual squad type.
+This project arose from a desire for a "Days In Current Corporation" filter, followed by a conversation on the SeAT Discord server about refactoring the filter system. I eventually hope to get something similar merged into SeAT core as a refactor of the existing filter system, or at least modify SeAT core a bit so this plugin can register a custom squad type instead of piggybacking on the Manual squad type.
