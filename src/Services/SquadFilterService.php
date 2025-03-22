@@ -94,7 +94,7 @@ class SquadFilterService
         return $query->getUnderlyingQuery()->exists();
     }
 
-    public function getEligibleUsers(Squad $squad): array
+    public function getEligibleUserIds(Squad $squad): array
     {
         $query = $this->getBaseQuery($squad);
 
