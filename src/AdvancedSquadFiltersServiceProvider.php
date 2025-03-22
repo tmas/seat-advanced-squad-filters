@@ -27,6 +27,9 @@ class AdvancedSquadFiltersServiceProvider extends AbstractSeatPlugin
 
         // Merge the config
         $this->mergeConfigFrom(__DIR__ . '/Config/advanced-squad-filters.config.php', 'advanced-squad-filters.config');
+
+        // Merge the filter list
+        $this->mergeConfigFrom(__DIR__ . '/Config/advanced-squad-filters.characterfilter.php', 'advanced-squad-filters.characterfilter');
         
         // Add permissions
         $this->registerPermissions(__DIR__ . '/Config/Permissions/advanced-squad-filters.php');
